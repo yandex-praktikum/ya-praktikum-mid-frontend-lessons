@@ -1,12 +1,3 @@
-# Router
-
-Ниже представлен код, в котором используется Роутинг. Чтобы переключаться между путями используем:
-* `<Link />`;
-* `<Navigate />`; // Можно проверить, перейдя по ссылке [/redirect](http://localhost:3000/redirect) (перебросит на /)
-
-* [Весь код можно увидеть тут](/superapp/src/containers/App/App.tsx), но вставка ниже
-
-```typescript jsx
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
@@ -35,4 +26,3 @@ root.render(
         </Routes>
     </BrowserRouter>
 );
-```
