@@ -1,19 +1,3 @@
-# Router
-
-Чтобы запустить проект локально выполните следующие команды
-
-```bash
-nvm use
-npm i
-npm run serve
-```
-
-Ниже представлен код, в котором используется Роутинг. Чтобы переключаться между путями используем:
-* `<Link />`;
-
-* [Весь код можно увидеть тут](/src/containers/App/App.tsx), но вставка ниже
-
-```typescript jsx
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
@@ -50,4 +34,3 @@ root.render(
         </Routes>
     </BrowserRouter>
 );
-```
